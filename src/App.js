@@ -12,8 +12,8 @@ import Training from './screens/user/training/Training';
 function App() {
   return (
       <Routes>
-        <Route path='/' element={<Training />} />
-        {/* <Route path='/' element={<Home />} /> */}
+        {/* <Route path='/' element={<Training />} /> */}
+        <Route path='/' element={<Home />} />
         <Route path='about-us' element={<About /> }/>
         <Route path='contact-us' element={<Contact /> }/>
         <Route path='products' element={<Product /> }/>
